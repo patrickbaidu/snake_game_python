@@ -1,4 +1,4 @@
-import pygame, sys
+import pygame
 
 class Settings:
     
@@ -7,5 +7,3 @@ class Settings:
         self.cell_number = 20
         self.screen = pygame.display.set_mode((self.cell_number * self.cell_size, self.cell_number * self.cell_size))
         self.clock = pygame.time.Clock()
-
-    
